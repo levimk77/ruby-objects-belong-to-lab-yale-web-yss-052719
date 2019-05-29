@@ -6,7 +6,7 @@ class Author
   end
    
   def write_post
-  Post.new(title, name, author)
+  Post.new(title, name, self)
   end
  
 end
