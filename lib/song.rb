@@ -6,6 +6,6 @@ class Song
   def initialize
     @title = title
     @artist = artist
-    @allSongs << self
+    
   end
 end 
