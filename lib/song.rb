@@ -8,6 +8,4 @@ class Song
     @artist = artist
     @allSongs << self
   end
-  
-
 end 
